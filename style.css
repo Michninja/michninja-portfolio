@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    font-weight: normal;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background:linear-gradient(to right top, #C3B1E1, #c09cd9);
+    padding: 5rem;
+}
+
+header{
+    width: 35rem;
+    background:rgba(255, 255, 255,.2);
+    box-shadow:0 1rem 2rem rgba(0,0,0,.3) ;
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+header .user-profile{
+    padding-top: 2rem;
+}
+
+header .user-profile img{
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:0 0 0 1rem rgba(255, 255, 255,.2) ;
+}
+
+header .user-profile .name{
+    font-size:3rem;
+    color: #6e4d90;
+    padding: 5rem 0;
+}
+
+header .user-profile .role{
+    font-size:1.8rem;
+    color: #6e4d90;
+    font-weight: lighter;
+}
+
+header .navbar{
+    padding: 1rem 3rem;
+}
+
+header .navbar ul li {
+    margin: 1rem 0;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+}
+
+header .navbar ul li a:hover{
+    background: rgba(255,255,255,.5);
+    color: #942c66;
+    transition: none;
+}
